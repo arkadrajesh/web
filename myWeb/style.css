@@ -1,0 +1,40 @@
+.block-1{
+    width: 100%;
+    float: left;
+}
+.first{
+    float: left;
+    width: 70%;
+}
+.second{
+    width:30%;
+    float: right;
+}
+.block-2{
+    width: 100%;
+    display: flex;
+}
+
+.hlo{
+    /* position: fixed; */
+}
+
+.hlo-1{
+    position: relative;
+    /* float: left; */
+    border: 1px solid red;
+    height: 500px;
+    width: 50%;
+}
+hlo-2{
+    position: relative;
+    border: 1px solid red;
+    height: 500px;
+    width: 500px;
+}
+
+    .raj{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    } 

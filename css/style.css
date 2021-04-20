@@ -1,0 +1,171 @@
+body{
+  background-color:white;
+  color:green;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+.clr{
+  clear:both;
+}
+
+.box-1{
+  background-color: darkblue;
+  color: white;
+
+
+  border-right:5px red solid;
+  border-left:5px red solid;
+  border-top:5px red solid;
+  border-bottom:5px red solid;
+  border-width:3px;
+  border-bottom-width:10px;
+  border-top-style:dotted;
+  border-bottom-style:dashed;
+  border-right-style:double;
+
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-right:20px;
+  padding-left:20px;
+
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-right:20px;
+  margin-left:20px;
+}
+
+.box-1 h1{
+  font-family:Tahoma;
+  font-weight:800;
+  font-style:italic;
+  text-decoration:underline;
+  text-transform:uppercase;
+  letter-spacing:0.2em;
+  word-spacing:1em;
+}
+
+.box-2{
+  border:3px dotted orange;
+  padding:20px;
+  margin:20px;
+}
+
+.categories{
+  border:1px green dashed;
+  padding:10px;
+  border-radius:15px;
+  margin:20px;
+}
+
+.categories h2{
+  text-align:center;
+}
+
+.categories ul{
+  padding:20 px;
+  list-style:square;
+}
+
+.categories li{
+  padding-bottom:8px;
+  padding-bottom:1px solid black;
+}
+
+.my-form{
+  padding:20px;
+}
+.my-form .form-group{
+  padding-bottom:15px;
+}
+.my-form label{
+  display:block;
+}
+.my-form input{
+  padding:8px;
+  width:100%;
+}
+.my-form input[type="submit"]{
+  background-color: crimson;
+  color:white;
+  padding:10px 15px;
+  border:none;
+}
+
+.block{
+  float:left;
+  width:33.3%;
+  border:1px solid red;
+  padding:10px;
+  box-sizing:border-box;
+}
+
+#main-block{
+  float:left;
+  width:70%;
+  padding:15px;
+  box-sizing:border-box;
+}
+
+#sidebar{
+  float:right;
+  width:30%;
+  background-color: grey;
+  color:white;
+  padding:15px;
+  box-sizing:border-box ;
+}
+
+.p-box{
+  width:100%;
+  height:500px; 
+  border:1px solid black;
+  margin-top:200px; 
+  margin-left:40px; 
+  position:absolute; 
+  background-image:url('../images/bgimage.jpg'); 
+  background-repeat:no-repeat;
+  background-position:100px 200px;
+  background-position:center top;
+  
+}
+
+.p-box h1{
+  position:absolute;
+  top:100px;
+  left:100px;
+}
+
+.p-box h2{
+  position:absolute;
+  bottom:100px;
+  right:100px;
+}
+
+.fix-me{
+  position:fixed;
+  top:400px;
+  border:1px solid orange;
+  background-color:black;
+}
+
+.my-list{
+  margin-top:700px;
+}
+
+.my-list li:first-child{
+  background:red;
+}
+
+.my-list li:last-child{
+  background:blue;
+}
+.my-list li:nth-child(5){
+  background:yellow;
+}
+.my-list li:nth-child(even){
+  background:green;
+}
